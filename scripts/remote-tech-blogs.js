@@ -21,6 +21,13 @@ function prepareMarkdown(markdown, source) {
     .replace(/\r\n/g, '\n')
     .replace(/^# .+\n+/, '')
     .replace(/^## Table of Contents\n[\s\S]*?(?=^## )/m, '')
+    .replace(/^\$\$([\s\S]*?)\$\$$/gm, (_, formula) => {
+      const escapedFormula = formula.trim()
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;');
+      return `<div class="math-display">\\[${escapedFormula}\\]</div>`;
+    })
     .replaceAll('https://github.com/NVIDIA/TensorRT-LLM/raw/main/', pinnedRawRoot)
     .replace(
       /\.\.\/\.\.\/features\/sparse-attention\.md(#framework-level-sparse-attention)?/g,
@@ -60,10 +67,22 @@ hexo.extend.filter.register('before_post_render', async data => {
 hexo.extend.injector.register('body_end', `
 <script>
 document.addEventListener('click', function (event) {
-  const link = event.target.closest('a[href="/about/#email-link"]');
+  const link = event.target.closest('a[href="https://bobboli.github.io/about/#email-link"]');
   if (!link) return;
   event.preventDefault();
   const address = atob('Ym9iYm9saTAyMDI=') + '@' + atob('Z21haWwuY29t');
   window.location.href = 'mailto:' + address;
+});
+
+document.addEventListener('pjax:complete', function () {
+  const content = document.querySelector('.column-main');
+  if (!content || !window.MathJax || typeof window.MathJax.typesetPromise !== 'function') return;
+
+  if (typeof window.MathJax.typesetClear === 'function') {
+    window.MathJax.typesetClear([content]);
+  }
+  window.MathJax.typesetPromise([content]).catch(function (error) {
+    console.warn('MathJax typesetting failed:', error);
+  });
 });
 </script>`);

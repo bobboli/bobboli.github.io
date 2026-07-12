@@ -9,7 +9,7 @@ Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA, where I work on acce
 
 Previously, I was a game engine developer at Tencent Games, where I worked on real-time rendering and Unreal Engine development.
 
-I earned my master's degree in computer science from ETH Zurich and my bachelor's degree from Peking University.
+I got my master's degree in computer science from ETH Zurich and my bachelor's degree from Peking University.
 
 ## Focus and Interests
 
@@ -30,21 +30,6 @@ The views expressed here are my own. -->
 - [LinkedIn](https://www.linkedin.com/in/bobboli0202/)
 - [X](https://x.com/bobboli0202)
 - [Google Scholar](https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en)
-- <a id="email-link" href="#" data-local="Ym9iYm9saTAyMDI=" data-domain="Z21haWwuY29t">Email</a>
-
-<script>
-(() => {
-  const link = document.getElementById('email-link');
-  if (!link) return;
-  const address = `${atob(link.dataset.local)}@${atob(link.dataset.domain)}`;
-  link.addEventListener('click', event => {
-    event.preventDefault();
-    window.location.href = `mailto:${address}`;
-  });
-  link.addEventListener('mouseenter', () => {
-    link.title = address;
-  }, { once: true });
-})();
-</script>
+- <a id="email-link" href="https://bobboli.github.io/about/#email-link">Email</a>
 
 <p class="is-size-7 has-text-grey">Last edited: July 13, 2026</p>

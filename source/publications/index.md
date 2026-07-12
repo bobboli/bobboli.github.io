@@ -1,6 +1,7 @@
 ---
 title: Publications
 date: 2026-07-12
+updated: 2026-07-13
 layout: page
 comment: false
 ---
@@ -120,3 +121,5 @@ comment: false
   </div>
 
 </div>
+
+<p class="is-size-7 has-text-grey">Last edited: July 13, 2026</p>

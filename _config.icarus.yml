@@ -58,7 +58,7 @@ article:
     theme: atom-one-light
     clipboard: true
     fold: unfolded
-  readtime: true
+  readtime: false
   update_time: true
   licenses:
 
@@ -98,7 +98,7 @@ widgets:
         url: https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en
       Email:
         icon: fas fa-envelope
-        url: /about/#email-link
+        url: https://bobboli.github.io/about/#email-link
       RSS:
         icon: fas fa-rss
         url: /atom.xml
