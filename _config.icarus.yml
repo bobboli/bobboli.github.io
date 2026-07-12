@@ -1,0 +1,128 @@
+﻿version: 5.1.0
+variant: default
+logo:
+  text: Bo Li
+
+head:
+  favicon: /img/favicon.svg
+  manifest:
+    name: Bo Li
+    short_name: Bo Li
+    start_url: /
+    theme_color: '#ffffff'
+    background_color: '#ffffff'
+    display: standalone
+    icons: []
+  open_graph:
+    type: blog
+    twitter_card: summary
+  structured_data: {}
+  meta:
+    - name=theme-color;content=#ffffff
+  rss: /atom.xml
+
+navbar:
+  menu:
+    Home: /
+    Archives: /archives
+    Categories: /categories
+    Tags: /tags
+    Projects: /projects
+    Publications: /publications
+    About: /about
+  links:
+    GitHub:
+      icon: fab fa-github
+      url: https://github.com/bobboli
+    LinkedIn:
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/bobboli0202/
+    Google Scholar:
+      icon: fas fa-graduation-cap
+      url: https://scholar.google.com/
+
+footer:
+  copyright: Copyright (c) 2026 Bo Li
+  links:
+    GitHub:
+      icon: fab fa-github
+      url: https://github.com/bobboli
+    RSS:
+      icon: fas fa-rss
+      url: /atom.xml
+
+article:
+  highlight:
+    theme: atom-one-light
+    clipboard: true
+    fold: unfolded
+  readtime: true
+  update_time: true
+  licenses: {}
+
+search:
+  type: insight
+  index_pages: true
+
+donates: []
+
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: true
+
+widgets:
+  - position: left
+    type: profile
+    author: Bo Li
+    author_title: Engineer
+    location:
+    avatar: https://github.com/bobboli.png
+    avatar_rounded: true
+    gravatar:
+    follow_link: https://github.com/bobboli
+    social_links:
+      GitHub:
+        icon: fab fa-github
+        url: https://github.com/bobboli
+      LinkedIn:
+        icon: fab fa-linkedin
+        url: https://www.linkedin.com/in/bobboli0202/
+      Google Scholar:
+        icon: fas fa-graduation-cap
+        url: https://scholar.google.com/
+      RSS:
+        icon: fas fa-rss
+        url: /atom.xml
+  - position: left
+    type: toc
+    index: true
+    collapsed: true
+    depth: 3
+  - position: right
+    type: recent_posts
+  - position: right
+    type: categories
+  - position: right
+    type: tags
+    order_by: name
+    show_count: true
+  - position: right
+    type: archives
+
+plugins:
+  animejs: true
+  back_to_top: true
+  busuanzi: false
+  gallery: true
+  katex: false
+  mathjax: true
+  outdated_browser: false
+  pjax: true
+  progressbar: true
+
+providers:
+  cdn: jsdelivr
+  fontcdn: google
+  iconcdn: fontawesome
