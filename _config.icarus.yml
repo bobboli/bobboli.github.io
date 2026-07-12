@@ -23,13 +23,9 @@ head:
 
 navbar:
   menu:
-    Home: /
-    Archives: /archives
-    Categories: /categories
-    Tags: /tags
-    Projects: /projects
-    Publications: /publications
     About: /about
+    Tech Blogs: /tech-blogs
+    Publications: /publications
   links:
     GitHub:
       icon: fab fa-github
@@ -37,9 +33,12 @@ navbar:
     LinkedIn:
       icon: fab fa-linkedin
       url: https://www.linkedin.com/in/bobboli0202/
+    X:
+      icon: fab fa-twitter
+      url: https://x.com/bobboli0202
     Google Scholar:
       icon: fas fa-graduation-cap
-      url: https://scholar.google.com/
+      url: https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en
 
 footer:
   copyright: Copyright (c) 2026 Bo Li
@@ -47,6 +46,9 @@ footer:
     GitHub:
       icon: fab fa-github
       url: https://github.com/bobboli
+    X:
+      icon: fab fa-twitter
+      url: https://x.com/bobboli0202
     RSS:
       icon: fas fa-rss
       url: /atom.xml
@@ -58,7 +60,7 @@ article:
     fold: unfolded
   readtime: true
   update_time: true
-  licenses: {}
+  licenses:
 
 search:
   type: insight
@@ -76,12 +78,11 @@ widgets:
   - position: left
     type: profile
     author: Bo Li
-    author_title: Engineer
+    author_title: DevTech Compute Engineer at NVIDIA
     location:
     avatar: https://github.com/bobboli.png
     avatar_rounded: true
     gravatar:
-    follow_link: https://github.com/bobboli
     social_links:
       GitHub:
         icon: fab fa-github
@@ -89,9 +90,15 @@ widgets:
       LinkedIn:
         icon: fab fa-linkedin
         url: https://www.linkedin.com/in/bobboli0202/
+      X:
+        icon: fab fa-twitter
+        url: https://x.com/bobboli0202
       Google Scholar:
         icon: fas fa-graduation-cap
-        url: https://scholar.google.com/
+        url: https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en
+      Email:
+        icon: fas fa-envelope
+        url: "javascript:location.href='mailto:'+atob('Ym9iYm9saTAyMDI=')+'@'+atob('Z21haWwuY29t')"
       RSS:
         icon: fas fa-rss
         url: /atom.xml
