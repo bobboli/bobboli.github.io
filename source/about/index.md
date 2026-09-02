@@ -1,15 +1,15 @@
-﻿---
+---
 title: About
 date: 2026-07-12
-updated: 2026-07-13
+updated: 2026-09-03
 layout: page
 ---
 
-Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA, where I work on accelerating AI at scale. My current work focuses on efficient LLM inference, from low-level GPU optimization to systems design.
-
-Previously, I was a game engine developer at Tencent Games, where I worked on real-time rendering and Unreal Engine development.
+Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA, where I focus on accelerating AI at scale. My work spans efficient LLM and diffusion model inference, as well as RL infrastructure—from low-level GPU optimization to framework and systems design.
 
 I got my master's degree in computer science from ETH Zurich and my bachelor's degree from Peking University.
+
+Earlier in my career, I was a Graphics Enginner at Tencent Games, where I worked on real-time rendering and Unreal Engine development.
 
 ## Focus and Interests
 
@@ -32,4 +32,4 @@ The views expressed here are my own. -->
 - [Google Scholar](https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en)
 - <a id="email-link" href="https://bobboli.github.io/about/#email-link">Email</a>
 
-<p class="is-size-7 has-text-grey">Last edited: July 13, 2026</p>
+<p class="is-size-7 has-text-grey">Last edited: September 3, 2026</p>
