@@ -66,14 +66,6 @@ hexo.extend.filter.register('before_post_render', async data => {
 
 hexo.extend.injector.register('body_end', `
 <script>
-document.addEventListener('click', function (event) {
-  const link = event.target.closest('a[href="https://bobboli.github.io/about/#email-link"]');
-  if (!link) return;
-  event.preventDefault();
-  const address = atob('Ym9iYm9saTAyMDI=') + '@' + atob('Z21haWwuY29t');
-  window.location.href = 'mailto:' + address;
-});
-
 document.addEventListener('pjax:complete', function () {
   const content = document.querySelector('.column-main');
   if (!content || !window.MathJax || typeof window.MathJax.typesetPromise !== 'function') return;

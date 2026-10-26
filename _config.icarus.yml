@@ -98,7 +98,7 @@ widgets:
         url: https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en
       Email:
         icon: fas fa-envelope
-        url: https://bobboli.github.io/about/#email-link
+        url: mailto:bobboli0202@gmail.com
       RSS:
         icon: fas fa-rss
         url: /atom.xml

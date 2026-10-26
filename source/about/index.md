@@ -30,6 +30,6 @@ The views expressed here are my own. -->
 - [LinkedIn](https://www.linkedin.com/in/bobboli0202/)
 - [X](https://x.com/bobboli0202)
 - [Google Scholar](https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en)
-- <a id="email-link" href="https://bobboli.github.io/about/#email-link">Email</a>
+- [Email](mailto:bobboli0202@gmail.com)
 
 <p class="is-size-7 has-text-grey">Last edited: September 3, 2026</p>
