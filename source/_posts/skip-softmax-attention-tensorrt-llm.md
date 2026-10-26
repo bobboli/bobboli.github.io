@@ -13,7 +13,7 @@ tags:
 
 > [Skip Softmax Attention](https://nvidia.github.io/TensorRT-LLM/blogs/tech_blog/blog16_Accelerating_Long_Context_Inference_with_Skip_Softmax_Attention.html) is a drop-in post-training sparse attention method and the productized implementation of [BLASST](https://arxiv.org/abs/2512.12087) in NVIDIA TensorRT-LLM. It is available for accelerating both [LLM workloads](https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/features/sparse-attention.md#skip-softmax-attention) and [visual-generation workloads](https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/visual-gen/features/sparse-attention.md#skip-softmax-attention).
 >
-> The original article was published in [NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/blogs/tech_blog/blog16_Accelerating_Long_Context_Inference_with_Skip_Softmax_Attention.md) and is embedded here for convenience.
+> Originally published on the [NVIDIA TensorRT-LLM tech blog](https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/blogs/tech_blog/blog16_Accelerating_Long_Context_Inference_with_Skip_Softmax_Attention.md). Reposted here.
 
 <!-- more -->
 
