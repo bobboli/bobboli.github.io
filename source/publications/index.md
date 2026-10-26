@@ -38,7 +38,7 @@ comment: false
 .publication-title { margin-bottom: .45rem !important; line-height: 1.35 !important; }
 .publication-authors { margin-bottom: .3rem !important; font-size: .92rem; line-height: 1.55; }
 .publication-venue { margin-bottom: .7rem !important; color: #555; }
-.publication-award { margin-top: .35rem; font-weight: 600; }
+.publication-award { margin-top: .35rem; font-weight: 600; text-decoration: none; }
 .publication-actions { margin-top: .8rem; margin-bottom: 0 !important; }
 .publication-actions .button { text-decoration: none; }
 @media screen and (max-width: 768px) {
@@ -60,7 +60,7 @@ comment: false
       <p class="publication-authors">Jiayi Yuan*, Cameron Shinn*, Kai Xu, Jingze Cui, George Klimiashvili, Guangxuan Xiao, Perkz Zheng, <strong>Bo Li</strong>, Yuxin Zhou, Zhouhai Ye, Weijie You, Tian Zheng, Dominic Brown, Pengbo Wang, Markus Hoehnerbach, Richard Cai, Julien Demouth, John D. Owens, Xia Hu, Song Han, Timmy Liu, Huizi Mao</p>
       <p class="publication-venue">
         <em>Proceedings of Machine Learning and Systems (MLSys), 2026</em><br>
-        <span class="tag is-warning publication-award"><span class="icon is-small"><i class="fas fa-trophy"></i></span><span>Best Research Paper Award</span></span>
+        <a class="tag is-warning publication-award" href="https://mlsys.org/media/mlsys-2026/best-papers/Best-Research-Paper-BLASST.pdf"><span class="icon is-small"><i class="fas fa-trophy"></i></span><span>Best Research Paper Award</span></a>
       </p>
       <div class="buttons are-small publication-actions">
         <a class="button is-primary is-light" href="https://arxiv.org/abs/2512.12087"><span class="icon is-small"><i class="fas fa-file-pdf"></i></span><span>Paper</span></a>
