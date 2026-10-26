@@ -5,7 +5,7 @@ updated: 2026-09-03
 layout: page
 ---
 
-Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA, where I focus on accelerating AI at scale. My work spans efficient LLM and diffusion model inference, as well as RL infrastructure—from low-level GPU optimization to framework and systems design.
+Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA. I work on making AI workloads run fast—mainly LLM inference and RL infrastructure—from low-level GPU kernels up to framework and systems design.
 
 I got my master's degree in computer science from ETH Zurich and my bachelor's degree from Peking University.
 
