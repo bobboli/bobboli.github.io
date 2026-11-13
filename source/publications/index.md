@@ -28,6 +28,7 @@ comment: false
   background: #fafafa;
   border: 1px solid #eeeeee;
   border-radius: 6px;
+  cursor: zoom-in;
 }
 .publication-teaser img {
   display: block;
@@ -52,7 +53,7 @@ comment: false
 <div class="publication-list">
 
   <div class="publication-item">
-    <a class="publication-teaser" href="https://arxiv.org/abs/2611.13188" aria-label="One-sided all-to-all paper">
+    <a class="publication-teaser gallery-item" href="/publications/teasers/one-sided-a2a.png" aria-label="Enlarge teaser: One-sided all-to-all paper">
       <img src="/publications/teasers/one-sided-a2a.png" alt="Data path of one-sided dispatch and combine across two ranks" loading="lazy">
     </a>
     <div>
@@ -69,7 +70,7 @@ comment: false
   </div>
 
   <div class="publication-item">
-    <a class="publication-teaser" href="https://arxiv.org/abs/2512.12087" aria-label="BLASST paper">
+    <a class="publication-teaser gallery-item" href="/publications/teasers/blasst.png" aria-label="Enlarge teaser: BLASST paper">
       <img src="/publications/teasers/blasst.png" alt="BLASST dynamically skips low-impact attention blocks" loading="lazy">
     </a>
     <div>
@@ -88,7 +89,7 @@ comment: false
   </div>
 
   <div class="publication-item">
-    <a class="publication-teaser" href="https://marigoldcomputervision.github.io/" aria-label="Marigold project page">
+    <a class="publication-teaser gallery-item" href="/publications/teasers/marigold.png" aria-label="Enlarge teaser: Marigold project page">
       <img src="/publications/teasers/marigold.png" alt="Marigold diffusion fine-tuning protocol" loading="lazy">
     </a>
     <div>
@@ -105,7 +106,7 @@ comment: false
   </div>
 
   <div class="publication-item">
-    <a class="publication-teaser" href="https://arxiv.org/abs/2404.00456" aria-label="QuaRot paper">
+    <a class="publication-teaser gallery-item" href="/publications/teasers/quarot.png" aria-label="Enlarge teaser: QuaRot paper">
       <img src="/publications/teasers/quarot.png" alt="Activation distributions before and after QuaRot" loading="lazy">
     </a>
     <div>
@@ -121,7 +122,7 @@ comment: false
   </div>
 
   <div class="publication-item">
-    <a class="publication-teaser" href="https://cgl.ethz.ch/publications/papers/paperYan23b.php" aria-label="Actuated face simulation paper">
+    <a class="publication-teaser gallery-item" href="/publications/teasers/face-ipc.png" aria-label="Enlarge teaser: Actuated face simulation paper">
       <img src="/publications/teasers/face-ipc.png" alt="Collision-aware actuated face simulation results" loading="lazy">
     </a>
     <div>
@@ -139,4 +140,4 @@ comment: false
 
 </div>
 
-<p class="is-size-7 has-text-grey">Last edited: July 13, 2026</p>
+<!-- <p class="is-size-7 has-text-grey">Last edited: July 13, 2026</p> -->
