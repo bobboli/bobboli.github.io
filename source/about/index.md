@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2026-07-12
-updated: 2026-09-03
+updated: 2026-11-13
 layout: page
 ---
 
@@ -9,14 +9,15 @@ Hi, I'm Bo Li, a Senior DevTech Compute Engineer at NVIDIA. I work on making AI 
 
 I got my master's degree in computer science from ETH Zurich and my bachelor's degree from Peking University.
 
-Earlier in my career, I was a Graphics Enginner at Tencent Games, where I worked on real-time rendering and Unreal Engine development.
+Earlier in my career, I was a Graphics Engineer at Tencent Games, where I worked on real-time rendering and Unreal Engine development.
 
 ## Focus and Interests
 
-- GPU programming and high-performance computing
-- Performance optimization
-- Generative models
-- AI systems
+- LLM inference
+- LLM post-training (RL infrastructure)
+- GPU kernel programming
+- Multi-GPU communication
+- Computer graphics
 
 <!-- ## About this site
 
@@ -32,4 +33,4 @@ The views expressed here are my own. -->
 - [Google Scholar](https://scholar.google.com/citations?user=k8wKfJUAAAAJ&hl=en)
 - [Email](mailto:bobboli0202@gmail.com)
 
-<p class="is-size-7 has-text-grey">Last edited: September 3, 2026</p>
+<p class="is-size-7 has-text-grey">Last edited: November 13, 2026</p>

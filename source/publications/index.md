@@ -1,7 +1,7 @@
 ---
 title: Publications
 date: 2026-07-12
-updated: 2026-07-13
+updated: 2026-11-13
 layout: page
 comment: false
 ---
@@ -50,6 +50,23 @@ comment: false
 \* denotes equal contribution.
 
 <div class="publication-list">
+
+  <div class="publication-item">
+    <a class="publication-teaser" href="https://arxiv.org/abs/2611.13188" aria-label="One-sided all-to-all paper">
+      <img src="/publications/teasers/one-sided-a2a.png" alt="Data path of one-sided dispatch and combine across two ranks" loading="lazy">
+    </a>
+    <div>
+      <h3 class="title is-5 publication-title"><a href="https://arxiv.org/abs/2611.13188">One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink</a></h3>
+      <p class="publication-authors"><strong>Bo Li</strong>, Chulian Zhang, Or Biri, Anthony Chang, Anton Korzh, Noam Duvdevani, XingFei Xi, Daniel Stokes, Zhenhuan Chen, Ludwig Schneider, Artem Y. Polyakov, Julien Demouth, Chandler Zhou</p>
+      <p class="publication-venue"><em>arXiv preprint, 2026</em></p>
+      <div class="buttons are-small publication-actions">
+        <a class="button is-primary is-light" href="https://arxiv.org/abs/2611.13188"><span class="icon is-small"><i class="fas fa-file-pdf"></i></span><span>Paper</span></a>
+        <a class="button is-light" href="https://github.com/NVIDIA/TensorRT-LLM/blob/main/docs/source/blogs/tech_blog/blog18_Optimizing_MoE_Communication_with_One_Sided_AlltoAll_Over_NVLink.md"><span class="icon is-small"><i class="fas fa-book-open"></i></span><span>Blog</span></a>
+        <a class="button is-light" href="https://www.bilibili.com/video/BV1NQGx6mELa/"><span class="icon is-small"><i class="fas fa-video"></i></span><span>Talk</span></a>
+        <a class="button is-light" href="/publications/bib/one-sided-a2a.bib"><span class="icon is-small"><i class="fas fa-quote-right"></i></span><span>BibTeX</span></a>
+      </div>
+    </div>
+  </div>
 
   <div class="publication-item">
     <a class="publication-teaser" href="https://arxiv.org/abs/2512.12087" aria-label="BLASST paper">
